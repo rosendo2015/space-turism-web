@@ -1,0 +1,21 @@
+body {
+  border: 0;
+  padding: 70px 0 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: #000;
+  max-width: 100%;
+  color: #fff;
+}
+:root {
+  color: #fff;
+  font-family: "Barlow", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Bellefair", serif;
+}
+ul li,
+a {
+  font-family: Barlow Condensed;
+  text-decoration: none;
+  list-style: none;
+}
