@@ -1,18 +1,21 @@
 import styled from "styled-components";
-
+import imgSky from "../../assets/sky-stars.jpg"
 export const Container = styled.div`
 
 .crew {
   margin: 0 auto;
   width: 380px;
   height: 100vh;
-  background-image: url("../../assets/jack-b-cYmwquhcp48-unsplash.jpg");
-  background-size: cover;
+  height: 100vh;
 }
 header {
 }
 
 main {
+  background-image: url(${imgSky});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top -100px;
   padding: 1.4rem;
 }
 .wrapperImg {

@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import imgMobile from "../../assets/nasaQ1p7bh3SHj8unsplash.jpg"
+import imgDesktop from "../../assets/background-home-desktop.jpg"
 
 export const Container = styled.div`
   background-size: cover;
@@ -60,15 +61,17 @@ export const Container = styled.div`
 }
 
 @media (min-width: 1050px) {
+background-size: cover;
+  background-position: top center;
+  background-image: url(${imgDesktop});
   .bodyApp{
-    transform: rotate(-90deg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center 300px;
+    
+   
+    
   }
   
- 
-.app {    
+  
+  .app {    
     width: 100%;
     margin: auto;
     display: flex;
@@ -108,6 +111,7 @@ export const Container = styled.div`
   }
   .app::after{
     display: none;
+    border: 1px solid red;
   }
 }
 
