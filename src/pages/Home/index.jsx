@@ -4,7 +4,7 @@ import { Header } from "../../components/Header/index.jsx"
 
 export function Home() {
   return (
-    <Container className="bodyApp">
+    <Container>
       <Header />
       <div className="app">
         <main className="main">

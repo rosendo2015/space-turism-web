@@ -10,22 +10,20 @@ export const Container = styled.div`
   
   body {
   text-align: center;  
-  max-width: 100%;
-  max-height: 100vh;  
+
+  
 }
 .app { 
   margin: 0 auto;
   min-width: 380px;
-  padding: 0 0 3rem;
-  
+  padding: 0 0 3rem;  
 }
 
 .main {
   padding: 0 5rem;   
 }
 .main h1 {
-  color: #fff;
-  
+  color: #fff;  
   font-size: 80px;
   font-style: normal;
   font-weight: 400;
@@ -61,15 +59,11 @@ export const Container = styled.div`
 }
 
 @media (min-width: 1050px) {
-background-size: cover;
+  
+  background-size: cover;
   background-position: top center;
   background-image: url(${imgDesktop});
-  .bodyApp{
-    
-   
-    
-  }
-  
+ 
   
   .app {    
     width: 100%;
